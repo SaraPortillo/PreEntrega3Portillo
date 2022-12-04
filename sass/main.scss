@@ -1,0 +1,82 @@
+$paddingGeneral: 10px;
+
+.body {
+    font {
+        font-family: 'Noto Sans', sans-serif;
+    }
+}
+  
+ h1 {
+    font-size: 28px;
+    color: #0054B4;
+    padding-inline: $paddingGeneral;
+ }
+  
+ h2 {
+    font {
+        font-size: 24px;
+        font-style: italic;
+    }
+
+    color: #FD9C0C;
+    padding-inline: $paddingGeneral;
+ }
+  
+ h3 {
+    font-size: 1fr;
+    color: #11212E;
+    padding-inline: $paddingGeneral;
+ }
+  
+ h4 {
+    font-size: 1fr;
+    color: #3A4856;
+    padding-inline: $paddingGeneral;
+ }
+  
+ .container {
+    &-fluid p {
+        font-size: 16px;
+        background-color: aliceblue;
+        text-align: justify;
+    }
+
+    &-fluid img {
+        display: flex;
+        margin-bottom: $paddingGeneral;
+        width: 100%;
+    }
+
+    &-fluid a {
+        display: inline;
+        font-size: 18px;
+        color: #FD9C0C;
+    }
+ }
+  
+ iframe {
+    height: 100%;
+    width: auto;
+    margin-left: $paddingGeneral;
+ }
+  
+ a {
+    padding-left: 5px;
+ }
+  
+ .form {
+    &-general {
+        padding: $paddingGeneral;
+    }
+    
+    &-contribucion p {
+        color: #FD9C0C;
+    }
+ }
+  
+ footer {
+    font-size: 14px;
+    text-align: center;
+    color: #0054B4;
+ }
+ 

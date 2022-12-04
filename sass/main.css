@@ -1,1 +1,69 @@
-/*# sourceMappingURL=main.css.map */
+.body font {
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+  color: #0054B4;
+  padding-inline: 10px;
+}
+
+h2 {
+  color: #FD9C0C;
+  padding-inline: 10px;
+}
+h2 font {
+  font-size: 24px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 1fr;
+  color: #11212E;
+  padding-inline: 10px;
+}
+
+h4 {
+  font-size: 1fr;
+  color: #3A4856;
+  padding-inline: 10px;
+}
+
+.container-fluid p {
+  font-size: 16px;
+  background-color: aliceblue;
+  text-align: justify;
+}
+.container-fluid img {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.container-fluid a {
+  display: inline;
+  font-size: 18px;
+  color: #FD9C0C;
+}
+
+iframe {
+  height: 100%;
+  width: auto;
+  margin-left: 10px;
+}
+
+a {
+  padding-left: 5px;
+}
+
+.form-general {
+  padding: 10px;
+}
+.form-contribucion p {
+  color: #FD9C0C;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  color: #0054B4;
+}/*# sourceMappingURL=main.css.map */
