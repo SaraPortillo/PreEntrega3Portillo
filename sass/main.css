@@ -1,4 +1,4 @@
-.body font {
+.body {
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -9,12 +9,10 @@ h1 {
 }
 
 h2 {
-  color: #FD9C0C;
-  padding-inline: 10px;
-}
-h2 font {
   font-size: 24px;
   font-style: italic;
+  color: #FD9C0C;
+  padding-inline: 10px;
 }
 
 h3 {

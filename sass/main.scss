@@ -1,44 +1,36 @@
 $paddingGeneral: 10px;
 
 .body {
-    font {
-        font-family: 'Noto Sans', sans-serif;
-    }
+   font-family: 'Noto Sans', sans-serif;
 }
+
+@mixin estilofuente ($fontsize: 20px, $color:#11212E,$padding:10px, $fontstyle:normal) {
+   font-size: $fontsize;
+   color: $color;
+   padding-inline: $padding;
+   font-style: $fontstyle;
+  }  
   
  h1 {
-    font-size: 28px;
-    color: #0054B4;
-    padding-inline: $paddingGeneral;
+   @include estilofuente (28px, #0054B4, $padding, $fontstyle);
  }
   
  h2 {
-    font {
-        font-size: 24px;
-        font-style: italic;
-    }
-
-    color: #FD9C0C;
-    padding-inline: $paddingGeneral;
+   @include estilofuente (24px, #FD9C0C, $padding, italic);
  }
   
  h3 {
-    font-size: 1fr;
-    color: #11212E;
-    padding-inline: $paddingGeneral;
+   @include estilofuente (1fr, #11212E, $padding, $fontstyle);
  }
   
  h4 {
-    font-size: 1fr;
-    color: #3A4856;
-    padding-inline: $paddingGeneral;
+   @include estilofuente (1fr, #3A4856, $padding, $fontstyle);
  }
   
  .container {
     &-fluid p {
         font-size: 16px;
         background-color: aliceblue;
-        text-align: justify;
     }
 
     &-fluid img {
